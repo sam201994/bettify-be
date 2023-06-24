@@ -1,6 +1,6 @@
 ## Bettify (Market Prediction)
 
-Smart contract that allows users to create their own market predictin game from a list of templates. Users can place multiple bets. The winner is rewarded with interest and other particpants can withdraw their stake without any loss.
+Smart contract that allows users to create their own market prediction game from a list of templates. Users can place multiple bets. The winner is rewarded with interest and other particpants can withdraw their stake without any loss.
 
 -   BitcoinPredictionFactoryContract - https://goerli.etherscan.io/address/0xdb6D87299ECf39Ffa8AD6710df645c69587C51f4#code
 -   BitcoinPrediction - https://goerli.etherscan.io/address/0x98F819395fD431482f785D0bC1Ca1556a23dfaB8#code
