@@ -1,0 +1,29 @@
+{
+    "name": "zero-loss-bet",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prettier": "prettier --write '*/*'",
+        "lint": "prettier --write '*/*'",
+        "hardhat:simulateDirect": "npx hardhat run --network hardhat scripts/simulateDirect.js",
+        "hardhat:simulateFactory": "npx hardhat run --network hardhat scripts/simulateFactory.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+        "hardhat": "^2.14.0",
+        "prettier": "^2.8.8",
+        "prettier-plugin-solidity": "^1.1.3"
+    },
+    "dependencies": {
+        "@aave/protocol-v2": "^1.0.1",
+        "@chainlink/contracts": "^0.6.1",
+        "@openzeppelin/contracts": "^4.8.3",
+        "dotenv": "^16.0.3",
+        "hardhat-deploy": "^0.11.28"
+    }
+}
